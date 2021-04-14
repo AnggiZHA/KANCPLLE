@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "DMM",
+  "description": "Chrome extension for bypassing area errors on dmm.com.",
+  "version": "0.0.2",
+  "background": { "persistent": true, "scripts": ["index.js"] },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.dmm.com/*",
+    "*://203.104.209.7/*"
+  ]
+}
